@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.ImageTOspeech">
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    app:srcCompat="@drawable/mina"
+    android:id="@+id/showr" />
+    <ImageView
+        android:id="@+id/needsImage_peeUp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/pee_up"
+        android:onClick="talk"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/showr"
+        android:layout_toEndOf="@+id/showr" />
+    <ImageView
+        android:id="@+id/needsImage_peeDown"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/pee_down"
+        android:onClick="talk"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/needsImage_peeUp"
+        android:layout_toEndOf="@+id/needsImage_peeUp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+    <ImageView
+        android:id="@+id/needsImage_doctor"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/doctor"
+        android:onClick="talk"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/needsImage_peeDown"
+        android:layout_toEndOf="@+id/needsImage_peeDown" />
+    <ImageView
+        android:id="@+id/needsImage_sleep"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/sleep"
+        android:onClick="talk"
+        android:layout_below="@+id/showr"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+    <ImageView
+        android:id="@+id/needsImage_nurse"
+        android:layout_width="76dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/see_nurse"
+        android:onClick="talk"
+        android:layout_alignTop="@+id/needsImage_sleep"
+        android:layout_toRightOf="@+id/needsImage_bedDown"
+        android:layout_toEndOf="@+id/needsImage_bedDown" />
+    <ImageView
+        android:id="@+id/needsImage_bedDown"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/bed_loww"
+        android:onClick="talk"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_alignTop="@+id/needsImage_sleep"
+        android:layout_toRightOf="@+id/needsImage_sleep"
+        android:layout_toEndOf="@+id/needsImage_sleep" />
+    <ImageView
+        android:id="@+id/needsImage_changeClothes"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/change_clothes"
+        android:layout_alignTop="@+id/needsImage_nurse"
+        android:layout_toRightOf="@+id/needsImage_nurse"
+        android:layout_toEndOf="@+id/needsImage_nurse"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+    <ImageView
+        android:id="@+id/needsImage_lightDown"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/less_light"
+        android:onClick="talk"
+        android:layout_below="@+id/needsImage_sleep"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+    <ImageView
+        android:id="@+id/needsImage_chair"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/chair"
+        android:layout_alignTop="@+id/needsImage_lightDown"
+        android:layout_alignLeft="@+id/needsImage_bedDown"
+        android:layout_alignStart="@+id/needsImage_bedDown"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+    <ImageView
+        android:id="@+id/needsImage_daay"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/dayday"
+        android:layout_alignTop="@+id/needsImage_chair"
+        android:layout_toRightOf="@+id/needsImage_chair"
+        android:layout_toEndOf="@+id/needsImage_chair"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+    <ImageView
+        android:id="@+id/needsImage_moveMeInBed"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/movemeinbed"
+        android:layout_below="@+id/needsImage_chair"
+        android:layout_alignLeft="@+id/needsImage_bedDown"
+        android:layout_alignStart="@+id/needsImage_bedDown" />
+    <ImageView
+        android:id="@+id/needsImage_teethWash"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/teeth_wash"
+        android:layout_below="@+id/needsImage_daay"
+     />
+    <ImageView
+        android:id="@+id/needsImage_raiseBed"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/bed_up"
+        android:layout_below="@+id/needsImage_moveMeInBed"
+        android:layout_toLeftOf="@+id/needsImage_moveMeInBed"
+        android:layout_toStartOf="@+id/needsImage_moveMeInBed"
+        android:layout_marginTop="15dp" />
+    <ImageView
+        android:id="@+id/needsImage_seeFamily"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/see_family"
+        android:layout_below="@+id/needsImage_chair"
+        android:layout_toRightOf="@+id/needsImage_chair"
+        android:layout_toEndOf="@+id/needsImage_chair" />
+    <ImageView
+        android:id="@+id/needsImage_lightUp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/lightup"
+        android:layout_alignTop="@+id/needsImage_timeee"
+        android:layout_toRightOf="@+id/needsImage_moveMeInBed"
+        android:layout_toEndOf="@+id/needsImage_moveMeInBed" />
+    <ImageView
+        android:id="@+id/needsImage_timeee"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/timee"
+        android:layout_alignTop="@+id/needsImage_raiseBed"
+        android:layout_alignLeft="@+id/needsImage_peeUp"
+        android:layout_alignStart="@+id/needsImage_peeUp" />
+    <ImageView
+        android:id="@+id/needsImage_seeFreinds"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:onClick="talk"
+        app:srcCompat="@drawable/mng"
+        android:layout_alignTop="@+id/needsImage_lightUp"
+        android:layout_alignRight="@+id/needsImage_changeClothes"
+        android:layout_alignEnd="@+id/needsImage_changeClothes" />
+
+
+
+
+</RelativeLayout>

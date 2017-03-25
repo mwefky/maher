@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.degregomal">
+
+
+    <Button
+
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:id="@+id/pain_nopain"
+        android:onClick="ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="لا يوجد الم"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/pain_simplepain"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:id="@+id/pain_simplepain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ac"
+        android:text="يوجد القليل من الالم"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/pain_somepain"
+        android:layout_alignLeft="@+id/pain_nopain"
+        android:layout_alignStart="@+id/pain_nopain" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:onClick="ac"
+        android:id="@+id/pain_somepain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="يوجد الم قوي"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/pain_simplepain"
+        android:layout_alignStart="@+id/pain_simplepain" />
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:onClick="ac"
+        android:id="@+id/pain_strongpain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="يوجد الم شديد"
+        android:layout_below="@+id/pain_somepain"
+        android:layout_alignLeft="@+id/pain_hardpain"
+        android:layout_alignStart="@+id/pain_hardpain"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:onClick="ac"
+        android:textSize="25dp"
+        android:id="@+id/pain_hardpain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="يوجد الم فظيع جدا"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/pain_strongpain"
+        android:layout_alignLeft="@+id/pain_somepain"
+        android:layout_alignStart="@+id/pain_somepain" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.paindegree">
+
+    <Button
+        android:id="@+id/sf"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="صور "
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:onClick="degreeswr"
+        android:layout_marginTop="139dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/buttonx1"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="جمل"
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:onClick="degreegomal"
+        android:layout_below="@+id/sf"
+        android:layout_alignLeft="@+id/sf"
+        android:layout_alignStart="@+id/sf"
+        android:layout_marginTop="75dp" />
+</RelativeLayout>
+

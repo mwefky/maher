@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+     >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="احتياجات المريض"
+        android:gravity="center"
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:onClick="Needs"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:onClick="painfull"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="درجه الم المريض"
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="شعور المريض"
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:onClick="sho3oor"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="سجل المريض"
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <Button
+        android:onClick="prletive"
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اقارب المريض"
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text=" INFo"
+        android:onClick="in"
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:layout_below="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>

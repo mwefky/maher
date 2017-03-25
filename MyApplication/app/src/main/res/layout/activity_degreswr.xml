@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.degreswr">
+    <ImageView
+        android:id="@+id/nopain_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:onClick="act"
+        app:srcCompat="@drawable/nopain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:onClick="act"
+        android:id="@+id/somepain_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/somepain"
+        android:layout_alignTop="@+id/nopain_image"
+        android:layout_centerHorizontal="true" />
+
+
+    <ImageView
+        android:onClick="act"
+        android:id="@+id/strong_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/strong"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_alignBottom="@+id/somepain_image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:onClick="act"
+        android:id="@+id/hardpain_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/hardpain"
+        android:layout_below="@+id/nopain_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="67dp" />
+
+
+    <ImageView
+        android:onClick="act"
+        android:id="@+id/terablepain_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/terablepain"
+        android:layout_alignTop="@+id/hardpain_image"
+        android:layout_alignLeft="@+id/somepain_image"
+        android:layout_alignStart="@+id/somepain_image" />
+</RelativeLayout>

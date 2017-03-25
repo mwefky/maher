@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.patientfeelingSowar">
+    <ImageView
+        android:id="@+id/image_hungry"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+        app:srcCompat="@drawable/hungry"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/image_thresty"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+        app:srcCompat="@drawable/theristy"
+
+        android:layout_alignParentLeft="true" />
+
+
+    <ImageView
+        android:id="@+id/image_feelgood"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+        app:srcCompat="@drawable/feel_good"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/image_feelbad"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/feel_bad"
+
+        android:layout_alignTop="@+id/image_feelsad"
+        android:layout_alignLeft="@+id/image_feelgood"
+        android:layout_alignStart="@+id/image_feelgood"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+
+    <ImageView
+        android:id="@+id/image_feelcold"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/cold"
+
+        android:layout_alignTop="@+id/image_feelconfused"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:id="@+id/image_feeldesp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/desp"
+
+        android:layout_alignTop="@+id/image_feele5tna2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <ImageView
+        android:id="@+id/image_feelsad"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/sad"
+
+        android:layout_alignTop="@+id/image_feeldezy"
+        android:layout_alignLeft="@+id/image_hungry"
+        android:layout_alignStart="@+id/image_hungry" />
+
+
+    <ImageView
+        android:id="@+id/image_feeldezy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/dezy"
+
+        android:layout_below="@+id/image_thresty"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="22dp" />
+
+
+    <ImageView
+        android:id="@+id/image_feelfear"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/fear"
+
+        android:layout_marginBottom="32dp"
+        android:layout_above="@+id/image_feelcold"
+        android:layout_alignRight="@+id/image_feelcold"
+        android:layout_alignEnd="@+id/image_feelcold" />
+
+    <ImageView
+        android:id="@+id/image_feele5tna2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/e5tna2"
+
+        android:layout_alignTop="@+id/image_feelfear"
+        android:layout_alignLeft="@+id/image_feelsad"
+        android:layout_alignStart="@+id/image_feelsad" />
+
+
+    <ImageView
+        android:id="@+id/image_feelconfused"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/confused"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/image_feele5tna2"
+        android:layout_alignStart="@+id/image_feele5tna2"
+        android:layout_marginBottom="13dp" />
+
+
+    <ImageView
+        android:id="@+id/image_feelhigh_temp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="sowartalk"
+
+        app:srcCompat="@drawable/high_temp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+
+

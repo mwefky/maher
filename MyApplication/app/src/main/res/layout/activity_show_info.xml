@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.ShowInfo">
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/dy1"
+       android:onClick="pshow"
+       android:text="show day 1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dy2"
+        android:onClick="pshow"
+        android:text="show day 2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pshow"
+        android:id="@+id/dy3"
+        android:text="show day 3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pshow"
+        android:id="@+id/dy4"
+        android:text="show day 4"
+        android:layout_below="@+id/dy1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pshow"
+        android:id="@+id/dy5"
+        android:text="show day 5"
+        android:layout_below="@+id/dy2"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dy6"
+        android:onClick="pshow"
+        android:text="show day 6"
+        android:layout_below="@+id/dy3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dy7"
+        android:onClick="pshow"
+        android:text="show day 7"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/dy5"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hr"
+        android:text="empty"
+        android:layout_alignRight="@+id/ab"
+        android:layout_alignEnd="@+id/ab"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/bp" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bp"
+        android:text="empty"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv"
+        android:text="empty"
+        android:layout_alignBaseline="@+id/hr"
+        android:layout_alignBottom="@+id/hr"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/in"
+        android:text="empty"
+        android:layout_below="@+id/dy7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ot"
+        android:text="empty"
+        android:layout_below="@+id/dy7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ab"
+        android:text="empty"
+        android:layout_below="@+id/dy7"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

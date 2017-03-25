@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.Pinfo">
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/hrate"
+        android:hint="heart rate"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/bres"
+        android:hint="blood pressure"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/cvp"
+        android:hint="CVP"
+        android:layout_alignBaseline="@+id/ab"
+        android:layout_alignBottom="@+id/ab"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/in"
+        android:hint="input"
+        android:layout_below="@+id/hrate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/out"
+        android:hint="output"
+        android:layout_below="@+id/bres"
+        android:layout_toRightOf="@+id/d5"
+        android:layout_toEndOf="@+id/d5" />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/ab"
+        android:hint="abnormal"
+        android:layout_below="@+id/in"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d1"
+        android:onClick="addDay"
+        android:text="day 1"
+        android:layout_alignBaseline="@+id/d2"
+        android:layout_alignBottom="@+id/d2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:onClick="addDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d2"
+        android:text="day 2"
+        android:layout_alignBaseline="@+id/d3"
+        android:layout_alignBottom="@+id/d3"
+        android:layout_toRightOf="@+id/ab"
+        android:layout_toEndOf="@+id/ab" />
+    <Button
+        android:onClick="addDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d3"
+        android:text="day 3"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:onClick="addDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d4"
+        android:text="day 4"
+        android:layout_alignBaseline="@+id/d6"
+        android:layout_alignBottom="@+id/d6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:onClick="addDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d5"
+        android:text="day 5"
+        android:layout_alignBaseline="@+id/d6"
+        android:layout_alignBottom="@+id/d6"
+        android:layout_alignLeft="@+id/d7"
+        android:layout_alignStart="@+id/d7" />
+    <Button
+        android:onClick="addDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d6"
+        android:text="day 6"
+        android:layout_above="@+id/d7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="38dp" />
+    <Button
+        android:onClick="addDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/d7"
+        android:text="day 7 :D "
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/d2"
+        android:layout_alignStart="@+id/d2"
+        android:layout_marginBottom="59dp" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="show ?"
+    android:id="@+id/showinfos"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:onClick="addDay"/>
+
+</RelativeLayout>

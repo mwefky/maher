@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.textTospeech">
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_text_freinds"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان ارى الاصدقاء "
+        android:onClick="speak"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp" />
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_text_peeDown"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان اتبرز"
+        android:onClick="speak"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_text_shower"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان استحم"
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_text_freinds"
+        android:layout_alignLeft="@+id/needgomall_text_freinds"
+        android:layout_alignStart="@+id/needgomall_text_freinds"
+        android:layout_marginTop="18dp" />
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button4"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان انام"
+        android:onClick="speak"
+        android:layout_alignBaseline="@+id/needgomall_text_shower"
+        android:layout_alignBottom="@+id/needgomall_text_shower"
+        android:layout_alignLeft="@+id/needgomall_text_peeDown"
+        android:layout_alignStart="@+id/needgomall_text_peeDown" />
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button6"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد اضاءه اقل "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_text_shower"
+        android:layout_alignLeft="@+id/needgomall_text_shower"
+        android:layout_alignStart="@+id/needgomall_text_shower" />
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button10"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد اضاءه اقوى "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_button14"
+        android:layout_alignLeft="@+id/needgomall_button14"
+        android:layout_alignStart="@+id/needgomall_button14"
+        android:layout_marginTop="19dp" />
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button12"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان اغير ملابسي "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_button13"
+        android:layout_alignLeft="@+id/needgomall_button13"
+        android:layout_alignStart="@+id/needgomall_button13" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button13"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان اخفض السرير "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_button4"
+        android:layout_alignLeft="@+id/needgomall_button4"
+        android:layout_alignStart="@+id/needgomall_button4" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button14"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد التقلب جه اليمين "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_button6"
+        android:layout_alignLeft="@+id/needgomall_button6"
+        android:layout_alignStart="@+id/needgomall_button6" />
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button15"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان اخفض السرير "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_button12"
+        android:layout_alignLeft="@+id/needgomall_button12"
+        android:layout_alignStart="@+id/needgomall_button12" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button16"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان اري العائله "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_button10"
+        android:layout_alignLeft="@+id/needgomall_button10"
+        android:layout_alignStart="@+id/needgomall_button10"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button17"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد معرفه الوقت "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_nnn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_button18"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد معرفه اليوم "
+        android:onClick="speak"
+        android:layout_below="@+id/needgomall_nnn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="17dp"
+        android:id="@+id/needgomall_nnn"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:text="اريد ان اجلس "
+        android:onClick="speak"
+        android:layout_alignBaseline="@+id/needgomall_button16"
+        android:layout_alignBottom="@+id/needgomall_button16"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

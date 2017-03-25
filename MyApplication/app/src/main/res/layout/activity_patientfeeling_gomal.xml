@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wefky.myapplication.patientfeelingGomal">
+
+
+    <Button
+
+
+        android:textSize="25dp"
+        android:textColor="#FF000000"
+        android:background="@drawable/bshape"
+        android:id="@+id/feelgomal_thirsty"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="49dp"
+        android:text="اشعر بالعطش"
+        android:onClick="gomaltalk"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:id="@+id/feelgomal_hungry"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="اشعربالجوع"
+        android:onClick="gomaltalk"
+        android:layout_alignBaseline="@+id/feelgomal_thirsty"
+        android:layout_alignBottom="@+id/feelgomal_thirsty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="25dp"
+        android:onClick="gomaltalk"
+        android:id="@+id/feelgomal_sad"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="اشعر بالحزن"
+        android:layout_alignTop="@+id/feelgomal_concentration"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:textSize="20dp"
+        android:onClick="gomaltalk"
+        android:id="@+id/feelgomal_hightemperature"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="درجه حرارتى مرتفعه"
+        android:layout_above="@+id/feelgomal_suffocated"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp" />
+
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:onClick="gomaltalk"
+        android:textSize="20dp"
+        android:id="@+id/feelgomal_concentration"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="اشعر بعدم التركيز"
+        android:layout_below="@+id/feelgomal_thirsty"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:onClick="gomaltalk"
+        android:textSize="25dp"
+        android:id="@+id/feelgomal_depression"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="اشعربالاحباط"
+        android:layout_alignTop="@+id/feelgomal_hightemperature"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:onClick="gomaltalk"
+        android:textSize="25dp"
+        android:id="@+id/feelgomal_rotation"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="اشعر بالدوران"
+        android:layout_above="@+id/feelgomal_good"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="42dp" />
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:onClick="gomaltalk"
+        android:textSize="25dp"
+        android:id="@+id/feelgomal_suffocated"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="اشعربالاختناق"
+        android:layout_alignBaseline="@+id/feelgomal_rotation"
+        android:layout_alignBottom="@+id/feelgomal_rotation"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:onClick="gomaltalk"
+        android:textSize="20dp"
+        android:id="@+id/feelgomal_good"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="اشعر بحاله جيده"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/feelgomal_rotation"
+        android:layout_alignStart="@+id/feelgomal_rotation"
+        android:layout_marginBottom="20dp" />
+
+
+    <Button
+        android:background="@drawable/bshape"
+        android:textColor="#FF000000"
+        android:onClick="gomaltalk"
+        android:textSize="25dp"
+        android:id="@+id/feelgomal_bad"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="اشعربحاله سيئه"
+        android:layout_below="@+id/feelgomal_rotation"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
